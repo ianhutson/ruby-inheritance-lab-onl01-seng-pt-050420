@@ -1,3 +1,7 @@
 class Student < User
-knowledge = []
+@@knowledge = []
+
+def initialize(knowledge)
+  @knowledge = knowledge
+  @@knowledge << knowledge
 end
