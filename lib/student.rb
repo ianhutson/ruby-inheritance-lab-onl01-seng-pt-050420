@@ -9,5 +9,7 @@ def learn(knowledge)
 @@knowledge << knowledge
 end
 
-
+def learn
+  @@knowledge
+end
 end
